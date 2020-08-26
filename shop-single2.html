@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shoppers </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+      
+    <script>
+      $(document).ready(function(){
+          $("#add").click(function(){
+              var i=$("#add1").val();
+              $("#count").text(i);
+          });
+          
+      });
+      </script>
+<style type="text/css">
+        #imagediv {
+            margin: 0 auto;
+            height: 450px;
+            width: 800px;
+            overflow: hidden;
+        }
+img {
+  margin-top:30px;
+}
+#main {
+  width: 640px;
+  margin: 10px auto;
+  font-family: 'Coda', cursive;
+}
+
+p{ text-align: center; }
+
+#loading img {
+  display: block;
+  margin: 10px auto;
+}
+
+#slides {
+  display: none;
+}
+
+.toggle {
+  display: none;
+}
+
+.active {
+  display: block;
+  animation: fadein ease-in 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+}
+    </style>
+ 
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+    <header class="site-navbar" role="banner">
+      <div class="site-navbar-top">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
+              <form action="" class="site-block-top-search">
+                <span class="icon icon-search2"></span>
+                <input type="text" class="form-control border-0" placeholder="Search">
+              </form>
+            </div>
+
+            <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
+              <div class="site-logo">
+                <a href="index.html" class="js-logo-clone">Shoppers</a>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+              <div class="site-top-icons">
+                <ul>
+                  <li><a href="#"><span class="icon icon-person"></span></a></li>
+                  <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+                  <li>
+                    <a href="cart.html" class="site-cart">
+                      <span class="icon icon-shopping_cart"></span>
+                      <span class="count" id="count">5</span>
+                    </a>
+                  </li> 
+                  <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
+                </ul>
+              </div> 
+            </div>
+
+          </div>
+        </div>
+      </div> 
+      <nav class="site-navigation text-right text-md-center" role="navigation">
+        <div class="container">
+          <ul class="site-menu js-clone-nav d-none d-md-block">
+            <li>
+              <a href="index.html">Home</a>
+             
+            </li>
+            <li>
+              <a href="about.html">About</a>
+             
+            </li>
+            <li class="active"><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="bg-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Corator</strong></div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+              <div id="imagediv" class="img-fluid">
+
+<div id="main">
+    <div class="toggle">
+<img src="images/shoe_1.jpg" class="2222" alt="Image" id="toggle" height="200" width="250" >
+</div>
+<div class="toggle">
+<img id="toggle" class="2222" src="corator.jpg" class="img-fluid" >
+</div>
+    <div class="toggle">
+      <img id="toggle" class="2222" src="corator2.jpg" height="220" width="200">
+    </div>
+  
+
+  </div>
+   
+                    </div>
+            
+              <p>
+                  <br>
+                  <br>
+              <p><button class="buy-now btn btn-sm btn-primary"><span class="fa fa-arrow-circle-left"  id="previous">Previous</span></button>
+                  <button class="buy-now btn btn-sm  btn-primary"><span class="glyphicon glyphicon-zoom-in" id="a">Zoom in</span></button>
+                  <button class="buy-now btn btn-sm  btn-primary"><span class="glyphicon glyphicon-zoom-out" id="b">Zoom out</span></button>
+              <button class="buy-now btn btn-sm  btn-primary"><span class="glyphicon glyphicon-chevron-right" id="next">Next</span></button>
+              </p></p>
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-black">Corator</h2>
+            <p>It is sold by one of the branded company and brought to you by Shoppers It comes with sizes from 6-9 with maximum durability.</p>
+            <p class="mb-4">These comes with much powerful soles and with a good gripping quality. It one of our assured products with a promo going on our site</p>
+            <p><strong class="text-primary h4">$80.00</strong></p>
+            <div class="mb-1 d-flex">
+              <label for="option-sm" class="d-flex mr-3 mb-3">
+                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-sm" name="shop-sizes"></span> <span class="d-inline-block text-black">6</span>
+              </label>
+              <label for="option-md" class="d-flex mr-3 mb-3">
+                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-md" name="shop-sizes"></span> <span class="d-inline-block text-black">7</span>
+              </label>
+              <label for="option-lg" class="d-flex mr-3 mb-3">
+                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-lg" name="shop-sizes"></span> <span class="d-inline-block text-black">8</span>
+              </label>
+              <label for="option-xl" class="d-flex mr-3 mb-3">
+                <span class="d-inline-block mr-2" style="top:-2px; position: relative;"><input type="radio" id="option-xl" name="shop-sizes"></span> <span class="d-inline-block text-black"> 9</span>
+              </label>
+            </div>
+            <div class="mb-5">
+              <div class="input-group mb-3" style="max-width: 120px;">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+              </div>
+              <input type="number" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" id="add1">
+              <div class="input-group-append">
+                <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+              </div>
+            </div>
+
+            </div>
+            <p><a href="#" class="buy-now btn btn-sm btn-primary" id="add">Add To Cart</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section block-3 site-blocks-2 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 site-section-heading text-center pt-4">
+            <h2>Featured Products</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="nonloop-block-3 owl-carousel">
+              <div class="item">
+                <div class="block-4 text-center">
+                  <figure class="block-4-image">
+                    <img src="images/cloth_1.jpg" alt="Image placeholder" class="img-fluid">
+                  </figure>
+                  <div class="block-4-text p-4">
+                    <h3><a href="shop-single.html">Tank Top</a></h3>
+                    <p class="mb-0">Finding perfect t-shirt</p>
+                    <p class="text-primary font-weight-bold">$50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="block-4 text-center">
+                  <figure class="block-4-image">
+                    <img src="images/shoe_1.jpg" alt="Image placeholder" class="img-fluid">
+                  </figure>
+                  <div class="block-4-text p-4">
+                    <h3><a href="shop-single2.html">Corater</a></h3>
+                    <p class="mb-0">Finding perfect products</p>
+                    <p class="text-primary font-weight-bold">$50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="block-4 text-center">
+                  <figure class="block-4-image">
+                    <img src="images/cloth_2.jpg" alt="Image placeholder" class="img-fluid">
+                  </figure>
+                  <div class="block-4-text p-4">
+                    <h3><a href="shop-single3.html">Polo Shirt</a></h3>
+                    <p class="mb-0">Finding perfect products</p>
+                    <p class="text-primary font-weight-bold">$50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="block-4 text-center">
+                  <figure class="block-4-image">
+                    <img src="images/cloth_3.jpg" alt="Image placeholder" class="img-fluid">
+                  </figure>
+                  <div class="block-4-text p-4">
+                    <h3><a href="#">T-Shirt Mockup</a></h3>
+                    <p class="mb-0">Finding perfect products</p>
+                    <p class="text-primary font-weight-bold">$50</p>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="footer-heading mb-4">Navigations</h3>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Sell online</a></li>
+                  <li><a href="#">Shopping cart</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Mobile commerce</a></li>
+                  <li><a href="#">Website development</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Software</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+            <h3 class="footer-heading mb-4">Promo</h3>
+            <a href="#" class="block-6">
+              <img src="images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
+              <h3 class="font-weight-light  mb-0">Finding Your Perfect Shoes</h3>
+              <p>Promo from  January 15 &mdash; 25, 2019</p>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address">Chitkara University, Baddi</li>
+                <li class="phone"><a href="#">+917009553861</a></li>
+                <li class="email">rishit.cse18@chitkarauniversity.edu.in</li>
+              </ul>
+            </div>
+
+            <div class="block-7">
+              <form action="#" method="post">
+                <label for="email_subscribe" class="footer-heading">Subscribe</label>
+                <div class="form-group">
+                  <input type="text" class="form-control py-4" id="email_subscribe" placeholder="Email">
+                  <input type="submit" class="btn btn-sm btn-primary" value="Send">
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This Project is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="#" target="_blank" class="text-primary">Rishit</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+<script>
+$(window).on("load", function() {
+  $('#loading').slideUp();
+  $('#slides').fadeIn('slow');
+  var $el = $('.toggle.active');
+  if (!$el.length) {
+    $('.toggle').first().addClass('active');
+  }
+});
+
+$('#previous').click(function() {
+  var $el = $('.active').prev('.toggle');
+  if (!$el.length) 
+  {
+    $el = $('.toggle').last();;
+  }
+  $('.active').removeClass('active');
+  $el.addClass('active');
+});
+
+$('#next').click(function() {
+  var $el = $('.active').next('.toggle');
+  if (!$el.length)
+  {
+    $el = $('.toggle').first();
+  }
+  $('.active').removeClass('active');
+  $el.addClass('active');
+});
+</script>  
+      <script>
+
+$(document).ready(function(){
+   $("#b").click(function(){
+
+var image = $(".2222").width();
+var hei = $(".2222").height();
+    image = image - 10;
+hei= hei-10;
+    $(".2222").width(image);
+$(".2222").height(hei);
+});
+});
+
+$(document).ready(function(){
+   $("#a").click(function(){
+   var image = $(".2222").width();
+   var hei = $(".2222").height();
+    image = image + 10;
+hei= hei+10;
+    $(".2222").width(image);
+$(".2222").height(hei);
+});
+});
+$(document).ready(function(){
+   $("#c").click(function(){
+    $(".2222").width(100);
+$(".2222").height(250);
+});
+});
+</script>
+  </body>
+</html>
